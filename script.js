@@ -15,7 +15,7 @@ function compute()
     const result = document.getElementById('result');
 
     result.innerHTML = `If you deposit <span class='highlight'>${principal}</span>,
-        at an interest rate of <span class='highlight'>${rate}</span>.
+        at an interest rate of <span class='highlight'>${rate}%</span>.
         You will receive an amount of <span class='highlight'>${interest}</span>,
         in the year <span class='highlight'>${year}</span>`;
 }
